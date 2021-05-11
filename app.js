@@ -20,7 +20,7 @@ const app = () => {
     //Select sounds
     sounds.forEach(sound =>{
         sound.addEventListener('click', function(){
-            sound.src = this.getAttribute('data-sound');
+            song.src = this.getAttribute('data-sound');
             video.src = this.getAttribute('data-video');
             checkPlaying(song);
         })
